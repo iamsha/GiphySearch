@@ -1,0 +1,96 @@
+.headerBar {
+    position: relative;
+    top: -10px;
+    background-color: #00A0B0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  	height: 40px;
+}
+
+img {
+    max-width: auto;
+    width: 100%;
+}
+
+h1 {
+    font-family: Muli;
+    text-align: center;
+}
+
+body {
+	background-color: black;
+    width: 80%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+
+.searchBar {
+	padding-top: 50px;
+}
+
+.searchQuery {
+	position: relative;
+    width: 80%;
+	display: inline-block;
+	padding: 20px;
+	font-size: 16px;
+	font-family: Muli;
+}
+
+.searchButton {
+	min-width: 100px;
+    width: 10%;
+	display: inline-block;
+	padding: 20px;
+	background-color: #00b00b;
+	color: white;
+	font-size: 20px;
+	font-family: Muli;
+	border: 1px #00b00b;
+	border-radius: 5px;
+}
+
+.trendingButton {
+    min-width: 90px;
+    width: 10%;
+    display: inline-block;
+	padding: 10px;
+	background-color: #0000FF;
+	color: white;
+	font-size: 16px;
+	font-family: Muli;
+	border: 1px #0000FF;
+	border-radius: 5px;
+}
+
+.randomButton {
+    min-width: 90px;
+    width: 10%;
+    display: inline-block;
+	padding: 10px;
+	background-color: #0000FF;
+	color: white;
+	font-size: 16px;
+	font-family: Muli;
+	border: 1px #0000FF;
+	border-radius: 5px;
+}
+
+.parameters {
+    font-family: Muli;
+    text-align: center;
+}
+
+.distraction {
+    color: #FF0000;
+}
+
+.imageResult {
+	height: 100%;
+	display: block;
+	float: left;
+	margin-right:3%;
+}
