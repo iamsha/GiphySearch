@@ -1,0 +1,22 @@
+    <head>
+		<title>Giphy Searchy</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Muli'>
+        <div class="headerBar"><h1>Giphy Searchy</h1></div>
+	</head>
+	<body>
+    <img class = "hamster wheel" src="https://media.giphy.com/media/3o85xwtKtlwixMUeli/giphy.gif">
+        <div class="parameters">        
+                  <br></br>
+        <p class="distraction">I'm easily distracted:</p>
+        <button class="userMethod trendingButton" name="method" value="trending" onclick="trendingButton(this)">Trending</button>
+        <button class="userMethod randomButton" name="method" value="random" onclick="randomButton(this)">Random</button>
+        </div>
+        <div class="searchBar">
+			<input type="text" class="userInput searchQuery" placeholder="What gifs are you looking for?">
+			<button class="userMethod searchButton" name="method" value="search" onclick="getUserInput(this)">Giphy!</button>
+        </div>
+        <div class="imageResult"></div>
+        <script src="script.js"></script>
+	</body>
+</html>
